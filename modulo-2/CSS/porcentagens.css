@@ -1,0 +1,52 @@
+/* Porcentagens % */
+
+/* Em muitos casos é tratado da mesma maneira que as distâncias <length> */
+/* Sempre será relativo a algum valor */
+
+/* 1° Exemplo  */
+
+/* 
+<p> oi </p> 
+
+html{
+    font-size: 50%;
+}
+
+____________________________________________
+*/
+
+/* 2° Exemplo  */
+
+/* 
+<body>
+    <ul>
+    <li> A </li>
+    <li> B
+        <ul>
+        <li> B 2 </li>
+    </ul>
+    </li>
+    </ul>
+</body>
+
+li{
+    font-size: 80%;
+}
+
+____________________________________________
+/* 3° Exemplo  */
+
+/* 
+<div></div>
+
+body{
+    width: 50%;
+}
+
+div{
+   background-color: blue;
+   width: 100px; // <- "width: 100%;"
+   heihgt: 100px; 
+}
+
+*/

@@ -1,0 +1,32 @@
+/* At rules */
+
+/*  - Está relacionado com o comportamento do CSS
+    - Começa com o sinal de '@' seguido do identificador e valor 
+*/
+
+/* Exemplos comuns */
+
+/*-@import: " incluir um css externo " */
+
+/*-@media: " regras adicionais para dispositivos " */
+
+/*-@font-face: " fonte externa " */
+
+/*-@keyframes: " animation " */
+
+/* CSS */
+
+@import "http://local.com/style.css";
+
+@media (min-width: 500px) {
+    /* Regras aqui :D */
+}
+
+@font-face {
+    /* Regras aqui :D */
+}
+
+
+@keyframes nameofanimation {
+    /* Regras aqui :D */
+}

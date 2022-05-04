@@ -1,0 +1,22 @@
+/* Posições */
+
+/* <position> */
+
+/* Representa um conjunto de coordenadas 2D */
+/* - top, right, bottom, left e center */
+
+/* - Usados para alguns tipos de proriedades */
+/* - Não confundir com a propriedade "position" */
+
+/* exemplo */
+
+/* 
+.box{
+    height: 300px;
+    width: 400px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repat: no-repeat;
+    background-position: right 50px;
+}
+
+*/

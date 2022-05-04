@@ -1,0 +1,13 @@
+/* Strings e identificadores */
+
+/* Strings: Texto envolto de aspas */
+/* Identificadores: red, black, gold */
+
+/* exemplo */
+
+/* .box::after <-pseudo-elemento
+{
+    content: "aqui vem uma string / mensagem";
+    color: white;
+} 
+*/

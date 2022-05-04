@@ -1,0 +1,109 @@
+/* A cascata (cascading) */
+
+/* A escolha do browser de qual a regra aplica, caso haja muitas regras para o mesmo elemento */
+
+/* Seu estilo é lido de baixo para cima */
+
+/* É levado em consideração 3 fatores */
+
+/* 
+1. Origem do estilo;
+2. Especifidade;
+3. Importância
+*/
+
+/* Origem do estilo */
+
+/* inline > tag style > tag link */
+
+/* Exemplo */
+
+/* O MAIS FORTE */
+/* <h1 style="color:red"> Titulo </h1> */
+
+/* ____________________________________ */
+
+/* O INTERMEDIARIO */
+/* <style>
+    {
+        color: gray;
+    }
+</style> 
+*/
+
+/* ____________________________________ */
+
+/* O MAIS FRACO */
+/* h1{
+        color: white;
+    } 
+*/
+
+/* ____________________________________ */
+
+/* Especificade */
+
+/* É um cálculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados.  */
+
+/* 
+0. Universal selector, combinators e nagation pseudo-class (:not())
+/* EXEMPLO: */
+
+/* *{
+        color: green;
+    } 
+*/
+
+/*
+1. Element type selector e pseudo-elements (::before, ::after)
+
+/* EXEMPLO: */
+
+/* h1{
+    color: white;
+    }  
+*/
+
+/* 
+10. Classes e atributes selectors ({type="radio"})
+/* EXEMPLO: */
+
+/* .title{
+    color: red;
+    }  
+
+    Sendo title uma classe do h1 no HTML
+*/
+
+/* 
+100. ID selector
+
+/* EXEMPLO: */
+
+/* #my-title{
+    color: red;
+    }  
+
+    Sendo my-title uma ID do h1 no HTML
+*/
+
+/* 
+1000. Inline
+
+/* EXEMPLO: */
+
+/*
+<h1 style="color:orange;"> Titulo </h1>
+*/
+
+/* 
+
+/* Você pode juntar um com o outro para ter mais cáculo matemático e sobrecrever o elemento, exemplo: "h1.title#my-title", ficou com 111 e sobrescreveu. */
+
+
+/* A REGRA "!important" */
+
+/*  Cuidado, evite o uso
+    Não é considerado uma boa prática
+    Quebra o fluxo natural da cascata
+*/

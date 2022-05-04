@@ -1,0 +1,63 @@
+/* Distâncias absolutas <lenght> */
+
+/* São fixas e não alteram seu valor */
+
+/* Unidade      nome        Equivalência */
+/* cm           Centímetro  1cm = 96px/2.54 */
+/* in           Inches (polegadas)  1in=2.54cm = 96px */
+/* px           Pixels      1px = 1/96th of 1in */
+
+/* O mais comum de se utilizar é o PX */
+/* Não recomendado utilizar o CM */
+
+/* Distânicas relativas */
+
+/* São relativas a algum outro valor, pode ser elemento pai, ou root, ou o tamanho da tela */
+
+/* Beneficio */
+/* Maior adptação aos diferentes tipos de tela */
+
+/* Unidade      Relativo a */
+
+/* em           Tamanho da font do pai */
+
+/* Ele multiplica o valor definido do elemento pai por seu valor */
+
+/* Exemplo:
+ div{
+    font-size: 18px;
+} 
+
+p{
+    font-size: 2em;
+}
+ */
+
+/* Ele multiplicará o font-size do p 18*2  */
+
+
+
+/* rem          Tamanho da font do elemento raiz (root/html) */
+
+/* Ele multiplica o valor definido no corpo do html (Root) por ele mesmo. */
+
+/* Exemplo */
+
+/* html{
+    font-size: 16px;
+} 
+
+div{
+    font-size: 32px;
+}
+
+p{
+    1.9rem;
+}
+
+*/
+
+/* Por padrão o font-size vem por 16px no html o rem mexe apenas com os valores definidos no root ou no html */
+
+/* vw           1% de viewport width */
+/* vh           1% de viewport height */

@@ -1,0 +1,36 @@
+/* Anatomia */
+
+/* css */
+h1 {
+    color: blue;
+    font-size: 60px;
+    background: grey;
+}
+
+/* fim-css */
+
+/* 
+-   *Selector*
+exemplo: H1
+
+-   *Declaration*
+exemplo: 
+{
+    color: blue;
+    font-size: 60px;
+    background: grey;
+}
+
+-   *Properties*
+exemplo:
+    color: blue;
+    font-size: 60px;
+    background: grey;
+
+-   *Property Value* 
+exemplo: 
+    blue
+    60px;
+    grey;
+*/
+
