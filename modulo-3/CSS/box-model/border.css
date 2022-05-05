@@ -1,0 +1,66 @@
+/* Border (outline) */
+
+/* As bordas da caixa */
+
+/* -value: "<border-style>", "<border-width>", "<border-color>" */
+/*  -   style: solid, dotted, dashed, double, groove, ridge, inset, outset */
+/*  -   color: "<color>" */
+
+/* div 
+/* shorthand */
+/* top, right, bottom, left */
+/* border-top: solid 2px; */
+
+/* style */
+/* border: solid; */
+
+/* width <length> / style */
+/* border: 2px dotted; */
+
+/* style / color */
+/* border: outset #f33; */
+
+/* width / style / color */
+/* border: medium dashed green;
+ }
+*/
+
+
+* {
+    margin: 0px;
+}
+
+div,
+section {
+    width: 100px;
+    height: 100px;
+    margin: 10% auto;
+}
+
+div {
+    border-top: 5px solid green;
+    border: 10px solid rebeccapurple;
+}
+
+section {
+    /* Ele preenche todas as bordas fora da caixa */
+
+    /* Ele é mais usado em inputs para acessibilidade nos navegadores */
+    outline: blue 4px solid;
+}
+
+/* O BORDER soma com a largura da caixa e altera o seu tamanho */
+
+/* O BOX-SIZING: BORDER-BOX, faz com que o BORDE não some com a largura e prevaleça o valor da largura do elemento */
+
+/* Consultas */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/border*/
+
+/* E outline? */
+
+/* Difere em 4 sentidos: */
+
+/* -  Não modifica o tamanho da caixa, pois não á parte do Box Model */
+/* -  Poderá ser diferente de retangular */
+/* Não permite ajustes individuais */
+/* Mais usado pelo user agent para acessibilidade */
