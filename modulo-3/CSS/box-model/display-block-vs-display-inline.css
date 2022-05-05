@@ -30,8 +30,8 @@
     height: 100px;
     width: 10px;
     border: 1px solid red;
+    
     /* Muda o comportamento padrão do elemento */
-
     /* display: inline; */
 }
 
@@ -40,8 +40,8 @@
     width: 10px;
     height: 200px;
     border: 1px solid pink;
-    /* Muda o comportamento padrão do elemento */
 
+    /* Muda o comportamento padrão do elemento */
     /* display: block; */
 }
 
