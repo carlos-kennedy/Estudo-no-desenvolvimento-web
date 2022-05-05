@@ -22,7 +22,7 @@ div {
     /* funciona como um relóginho indo para direita até 12hr */
 }
 
-/* Como padrão é sempre melhor resetar o body, pois o "user agent stylesheet" sempre define o valor como 8px todos os lados */
+/* Como padrão é sempre melhor resetar o body ou *(global), pois o "user agent stylesheet" sempre define o valor como 8px todos os lados */
 body {
     margin: 0px;
 }
@@ -58,7 +58,7 @@ section {
 
 /* Caso o valor de um elemento ultrapasse o outro enquanto estiver no margin collapsing a importância é de quem tiver o maior valor */
 
-/* Não a margin collapsing quando os elementos estiverem ao lado do outro no modo inline (margin-rigth ou left) eles somam os dois valores invés de dar o verdadeiro valor */
+/* Não á margin collapsing quando os elementos estiverem ao lado do outro no modo inline (margin-rigth ou left) eles somam os dois valores invés de dar o verdadeiro valor */
 
 /* consultas */
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
