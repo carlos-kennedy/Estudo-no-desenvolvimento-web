@@ -11,15 +11,17 @@
 
 /* Exemplo CALC() */
 
-/* body{
-     height: 100vh;
-     margin: 0px;
- } 
- 
-    .box{
-        height: calc(50% + 20px) // <- calc(100% -40px);
-        width: 100%;
-        background-image: url(https://source.unsplash.com/random);
-        background-repeat: no-repeat;
-    }
- */
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+.box {
+    height: calc(50% + 20px);
+    /* 50% da tela + 20px */
+    /*calc(100% -40px); */
+    /* 100% da tela - 40px */
+    width: 100%;
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+}

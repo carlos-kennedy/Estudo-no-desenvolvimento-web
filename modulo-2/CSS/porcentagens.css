@@ -5,20 +5,17 @@
 
 /* 1° Exemplo  */
 
-/* 
-<p> oi </p> 
-
-html{
+/* html {
     font-size: 50%;
-}
+} */
 
-____________________________________________
-*/
+/* ____________________________________________*/
+
 
 /* 2° Exemplo  */
 
-/* 
-<body>
+
+/* <body>
     <ul>
     <li> A </li>
     <li> B
@@ -27,26 +24,24 @@ ____________________________________________
     </ul>
     </li>
     </ul>
-</body>
+</body> */
 
-li{
+li {
     font-size: 80%;
 }
 
-____________________________________________
+/* ____________________________________________ */
 /* 3° Exemplo  */
 
-/* 
-<div></div>
 
-body{
-    width: 50%;
+body {
+    width: 150%;
+    margin: 0px;
 }
 
-div{
-   background-color: blue;
-   width: 100px; // <- "width: 100%;"
-   heihgt: 100px; 
+div {
+    background-color: blue;
+    /* width: 100px; */
+    width: 100%;
+    height: 100px;
 }
-
-*/

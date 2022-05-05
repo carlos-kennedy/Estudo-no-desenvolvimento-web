@@ -5,9 +5,16 @@
 
 /* exemplo */
 
-/* .box::after <-pseudo-elemento
-{
+
+.box {
+    background-image: url(http://source.unsplash.com/random);
+    height: 100vh;
+}
+
+.box::after
+
+/* <-pseudo-elemento */
+    {
     content: "aqui vem uma string / mensagem";
     color: white;
-} 
-*/
+}

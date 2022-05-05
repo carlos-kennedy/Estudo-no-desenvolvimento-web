@@ -15,49 +15,49 @@
 /* São relativas a algum outro valor, pode ser elemento pai, ou root, ou o tamanho da tela */
 
 /* Beneficio */
-/* Maior adptação aos diferentes tipos de tela */
+/*  -  Maior adptação aos diferentes tipos de tela  */
 
-/* Unidade      Relativo a */
+/* _______________________________________________________________ */
+/* Unidade      Relativo a: */
 
-/* em           Tamanho da font do pai */
+/* EM  -  TAMANHO DA FONT DO PAI */
 
 /* Ele multiplica o valor definido do elemento pai por seu valor */
 
-/* Exemplo:
- div{
-    font-size: 18px;
-} 
+/* Exemplo EM: */
 
-p{
+div {
+    font-size: 16px;
+}
+
+p {
     font-size: 2em;
 }
- */
 
-/* Ele multiplicará o font-size do p 18*2  */
+/* Ele multiplicará o font-size do p 18*2  ou por outro valor no qual você colocar dentro do em */
 
+/* _______________________________________________________________ */
 
-
-/* rem          Tamanho da font do elemento raiz (root/html) */
+/* REM  - TAMANHO DA FONT DO ELEMENTO RAIZ (ROOT/HTML) */
 
 /* Ele multiplica o valor definido no corpo do html (Root) por ele mesmo. */
 
 /* Exemplo */
 
-/* html{
+html {
     font-size: 16px;
-} 
+}
 
-div{
+div {
     font-size: 32px;
 }
 
-p{
-    1.9rem;
+p {
+    font-size: 1.9rem;
 }
 
-*/
-
 /* Por padrão o font-size vem por 16px no html o rem mexe apenas com os valores definidos no root ou no html */
+/* _______________________________________________________________ */
 
 /* vw           1% de viewport width */
 /* vh           1% de viewport height */
