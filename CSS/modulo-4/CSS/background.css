@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+}
+
+header {
+    border: 10px dashed red;
+    height: 100px;
+    padding: 50px;
+
+    /* background: #041029; */
+
+    /* Adicionando imagens e fazendo com que não se repita */
+
+    /* background: url(https://images.unsplash.com/photo-1650530509792-6c69e4020a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat; */
+
+    /* Position */
+
+    background: url(https://images.unsplash.com/photo-1650530509792-6c69e4020a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat bottom;
+
+    /* Faz com que a imagem fique dentro da caixa */
+
+    /* background-size: contain; */
+
+    /* Faz com que a imagem se estique e ocupe todo interior da caixa */
+
+    /* background-size: cover; */
+
+    /* Mexe com a altura e largura da imagem dentro da caixa */
+
+    /* Pode ser utilido outros <lenght> como px, vw ou em */
+
+    /* background-size: 50%, 20%; */
+
+    /* Define um ponto da imagem na caixa onde ele começará */
+
+    /*Os valores aceitos são: Content-box, Border-box e Padding-box*/
+
+    /* Content-box já é o padrão. */
+
+    /* Padding-box faz com que a imagem fique até o padding da caixa */
+
+    /* background-origin: border-box; */
+
+    /* Faz com que mude completamente a imagem e a cor de fundo colocando um valor apartir de onde eu quero que apareça */
+
+    /* Aceita o mesmo valor do origin, Content-box, Border-box ou Padding-box*/
+
+    /* background-clip: content-box; */
+}
