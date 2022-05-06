@@ -13,5 +13,5 @@ main {
     height: 50em;
     padding: 10em;
     text-align: center;
-    background: linear-gradient(320deg, #f3606cb9, #b60f1d), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80) no-repeat center / cover fixed content-box;
+    background: linear-gradient(300deg, #f3606c6b, #b60f1dab), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80) no-repeat center / cover fixed content-box;
 }
