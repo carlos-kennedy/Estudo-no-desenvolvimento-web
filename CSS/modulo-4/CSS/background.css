@@ -26,23 +26,20 @@ header {
     /* background-size: cover; */
 
     /* Mexe com a altura e largura da imagem dentro da caixa */
-
     /* Pode ser utilido outros <lenght> como px, vw ou em */
 
     /* background-size: 50%, 20%; */
 
     /* Define um ponto da imagem na caixa onde ele começará */
-
     /*Os valores aceitos são: Content-box, Border-box e Padding-box*/
 
     /* Content-box já é o padrão. */
-
     /* Padding-box faz com que a imagem fique até o padding da caixa */
 
     /* background-origin: border-box; */
 
     /* Faz com que mude completamente a imagem e a cor de fundo colocando um valor apartir de onde eu quero que apareça */
-
+    
     /* Aceita o mesmo valor do origin, Content-box, Border-box ou Padding-box*/
 
     /* background-clip: content-box; */
