@@ -7,6 +7,8 @@ header {
     height: 100px;
     padding: 50px;
 
+    margin-bottom: 3em;
+
     /* background: #041029; */
 
     /* Adicionando imagens e fazendo com que não se repita */
@@ -39,8 +41,43 @@ header {
     /* background-origin: border-box; */
 
     /* Faz com que mude completamente a imagem e a cor de fundo colocando um valor apartir de onde eu quero que apareça */
-    
+
     /* Aceita o mesmo valor do origin, Content-box, Border-box ou Padding-box*/
 
     /* background-clip: content-box; */
+}
+
+main {
+    border: 10px dashed red;
+    /* height: 100px; */
+    padding: 50px;
+    color: white;
+    background: #041029;
+    background-image: url(https://images.unsplash.com/photo-1650530509792-6c69e4020a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+    background-clip: content-box;
+    /* Faz com que a imagem não rode para cima e sim que fique fixa. */
+    background-attachment: fixed;
+
+
+    /* Para que adicione o cover, contain ou valores númericos (em length) adicione uma " / " para que não dê erro.  */
+
+    /* Adicionando o primeiro valor "border-box" ele aplicará para o primeiro elemento "background-origin";
+            
+     Se aplicar o segundo valor "content-box" ele aplicará para o segundo elemento "background-clip "*/
+
+    background: #041029 url(https://images.unsplash.com/photo-1650530509792-6c69e4020a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat center / cover border-box content-box fixed;
+
+
+    /* Pode adicionar angulos ou keywords (to left, to right, to bottom, to top) */
+    background: linear-gradient(145deg, #041029, #10378b, #3c3aca);
+
+    /* Gradiente Radial */
+    background: radial-gradient(#041029, #10378b, #3c3aca);
+
+    /* Agrupando junto com gradientes */
+    background: linear-gradient(145deg, #04102980, #10378b, #3c3aca81), url(https://images.unsplash.com/photo-1650530509792-6c69e4020a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat center / cover border-box content-box fixed;
 }
