@@ -1,0 +1,101 @@
+/* Atribuindo mais estilos ás fontes */
+
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundametals */
+
+/* ____________________________________ */
+/* Font-variant */
+
+.font_variant {
+    font-family: 'Lato', sans-serif;
+    font-variant: small-caps;
+}
+
+/* ____________________________________ */
+
+/* Font-stretch */
+/* 
+OBS: Nem todas as fontes aceitam este estilo
+
+    -Alargamento ou encolhimento da fonte
+    -Aceita palavras-chaves como: expanded, condensed, normal
+    -Aceita porcentagens de 50% a 200%
+*/
+
+.font_stretch {
+    font-stretch: expanded;
+}
+
+/* ____________________________________ */
+/* Letter-spacing */
+/* Espaços entre caracteres */
+
+.letter_spacing {
+
+    letter-spacing: 0.5em;
+}
+
+/* ____________________________________ */
+/* Word-spacing */
+/* Espaços entre caracteres */
+.word_spacing {
+
+    word-spacing: 0.5em;
+}
+
+/* ____________________________________ */
+/* Line-heigth */
+/* 
+Espaços entre linhas
+    -Pode ser com unidades ou sem unidades de medida
+    -Comuns:  1.5 ou 2 
+*/
+.line_heigth {
+    line-height: 1.7;
+}
+
+/* ____________________________________ */
+/* Text-transform */
+/* Transformação de texto */
+/* Seus valores são: uppercase, captalize, lowercase, none */
+.text_transform {
+    text-transform: uppercase;
+}
+
+/* ____________________________________ */
+/* Text-decoration */
+/* Aparencia decorativa do texto */
+/* line: underline, overline, line-through 
+    -podemos aplicar mais de 1 valor 
+*/
+/* style: wavy, dotted, double, dashed, solid */
+
+.text_decoration {
+    text-decoration: underline dashed red;
+    /* overline, line-through*/
+    /* shorthand */
+}
+
+/* ____________________________________ */
+/* Text-align */
+/* Alinhamento do texto */
+/* Seus valores são: center, left, right, justify */
+.text_align {
+    text-align: center;
+}
+
+/* ____________________________________ */
+/* Text-shadow */
+/* Sombra aplicada no texto */
+/* Permite multiplus valores  */
+.text_shadow {
+    text-shadow: 1px 1px 1px red, 2px 2px 1px green;
+    /* offset-x offset-y, blur-radius, color */
+}
+
+/* Shorthand font */
+/* font-style, font-variant, font-weight, font-stretch, font-size, line-heigth, e font-family */
+
+.shorthand {
+    /* -style, -variant, -weigth, -stretch, -size, line-heigth, -family */
+    font: italic bold 3em/2.5 helvetica, Arial, sans-serif;
+}
