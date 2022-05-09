@@ -4,7 +4,6 @@
 
 /* ____________________________________ */
 /* Font-variant */
-
 .font_variant {
     font-family: 'Lato', sans-serif;
     font-variant: small-caps;
@@ -20,7 +19,6 @@ OBS: Nem todas as fontes aceitam este estilo
     -Aceita palavras-chaves como: expanded, condensed, normal
     -Aceita porcentagens de 50% a 200%
 */
-
 .font_stretch {
     font-stretch: expanded;
 }
@@ -28,9 +26,7 @@ OBS: Nem todas as fontes aceitam este estilo
 /* ____________________________________ */
 /* Letter-spacing */
 /* Espaços entre caracteres */
-
 .letter_spacing {
-
     letter-spacing: 0.5em;
 }
 
@@ -38,7 +34,6 @@ OBS: Nem todas as fontes aceitam este estilo
 /* Word-spacing */
 /* Espaços entre caracteres */
 .word_spacing {
-
     word-spacing: 0.5em;
 }
 
@@ -68,7 +63,6 @@ Espaços entre linhas
     -podemos aplicar mais de 1 valor 
 */
 /* style: wavy, dotted, double, dashed, solid */
-
 .text_decoration {
     text-decoration: underline dashed red;
     /* overline, line-through*/
