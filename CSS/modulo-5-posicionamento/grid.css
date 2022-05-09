@@ -17,24 +17,38 @@ body {
         "main aside"
         "footer footer";
 
-    /* Cada uma das aspas significam linhas */
+    /* Cada uma das aspas significam linhas e onde serão ocupadas */
+
+    grid-template-rows: 30px 1fr 40px;
+    /* Muda o tamanho das linhas */
+    grid-template-columns: 1fr 80px;
+    /* Muda o tamanho das colunas */
+
+    /* fr: fração, uma ideia flexível onde ele preencherá todo espaço onde esteja. */
+
+
+
 }
 
+/* topo */
 header {
     grid-area: header;
     background-color: blue;
 }
 
+/* conteúdo */
 main {
     grid-area: main;
     background-color: blueviolet;
 }
 
+/* infos adicionais */
 aside {
     grid-area: aside;
     background-color: green;
 }
 
+/* rodapé */
 footer {
     grid-area: footer;
     background-color: red;
