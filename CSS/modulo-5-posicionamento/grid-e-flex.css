@@ -1,0 +1,43 @@
+/* O GRID e o FLEX Pode ser utilizado juntos, só não no mesmo elemento  */
+
+* {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+
+    /* Cada uma das aspas significam linhas e onde serão ocupadas */
+
+    grid-template-rows: 30px 1fr 40px;
+    /* Muda o tamanho das linhas */
+    grid-template-columns: 1fr 80px;
+    /* Muda o tamanho das colunas */
+
+    /* fr: fração, uma ideia flexível onde ele preencherá todo espaço onde esteja. */
+}
+
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+main {
+    grid-area: main;
+    background-color: blue;
+}
+
+aside {
+    grid-area: aside;
+    background-color: blueviolet;
+}
+
+footer {
+    grid-area: footer;
+    background-color: green;
+}
