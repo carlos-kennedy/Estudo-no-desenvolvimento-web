@@ -28,23 +28,37 @@ header {
     align-items: center;
 
     padding: 0px 8px;
-    /* Apenas um valor extra */
-
+    /* Declarações e valores adicionais */
     grid-area: header;
     background-color: aqua;
 }
 
 main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     grid-area: main;
     background-color: blue;
 }
 
 aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    /* Declarações e valores adicionais */
+
     grid-area: aside;
     background-color: blueviolet;
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     grid-area: footer;
     background-color: green;
 }
