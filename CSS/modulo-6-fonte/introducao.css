@@ -1,0 +1,94 @@
+/* Trabalhando com fontes */
+
+/* Tipografia transmite mensagens */
+
+/*  
+    - negrito
+    - tamanho
+    - estilo
+ */
+
+/* Basic font properties */
+
+/* 
+    - font-family
+    - font-weight
+    - font-style
+    - font-size
+ */
+
+/* _________________________________________________________ */
+
+/* Font family */
+
+/* 
+    -Tipo de fonte de um elemento
+    - Listas de fontes e ordem de prioridade
+    - Inclui "fallback" font
+
+    OBS: "FALLBACK é algo usado quando sua opção original não está disponível por alguma razão""
+ */
+
+.font-family {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* 
+    -serif
+        São fontes com dobras em suas letras
+
+    -sans
+    -sans-serif
+        São fontes que não possuem dobras.
+*/
+
+/* _________________________________________________________ */
+
+/* Font weigth */
+
+/* Peso da fonte */
+
+.font-weigth {
+    font-weight: bold;
+}
+
+/* _________________________________________________________ */
+
+/* Font style */
+
+.font-style {
+    font-style: italic;
+}
+
+/* _________________________________________________________ */
+
+/* Font size */
+
+.font-size {
+    font-size: 1.2em;
+}
+
+/* _________________________________________________________ */
+
+/* Web fonts */
+
+/* 
+    - Fontes do sistema X fontes da web 
+    - Como usar fontes da web?
+*/
+
+/* 
+    -@import
+    -@font-face
+    - link
+*/
+
+.web-font {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Consultas */
+/* https://www.w3.org/TR/css-fonts-3 */
+
+/* https://www.css-tricks.com/snippets/css/using-font-face */
