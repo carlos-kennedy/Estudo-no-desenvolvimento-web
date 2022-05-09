@@ -8,9 +8,11 @@
     -Grid
 */
 
-/* Posicionamento */
+/* Posicionamento
 
-/* Controlar onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos */
+/* Controlar onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+/* Altera apenas o lado de fora e não dentro da caixa: absolute, static, relative, fixed. */
 
 /* 
     -Name: position
