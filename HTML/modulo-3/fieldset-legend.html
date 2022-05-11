@@ -1,0 +1,44 @@
+<!-- 
+    <fieldset>
+    - agrupamento de campos
+    - mesmo propósito
+    - semântico
+    - acessibilidade
+
+    Atributos especiais
+    -disabled
+        - desabilita todos os elementos internos
+        - não serão enviados ao submeter o formulário
+    -form
+        - o id de um formulário ao qual esse fieldset pertence
+        - não precisa estar dentro do formulário
+    -name
+        - nome do grupo
+    
+    
+    <legend>
+        - nome do agrupamento
+        - primeiro elemento dentro do fieldset
+    -->
+
+<form action="index.html" method="get">
+    <!-- Disabled -->
+    <fieldset disabled>
+        <legend>Contato</legend>
+        <label for="">Email:</label>
+        <input type="email" name="" id="">
+    </fieldset>
+
+</form>
+
+<!-- form -->
+<!-- Este atributo funciona se caso ele estiver fora do form, mas o form deverá receber uma id para que os dados deste fieldset seja enviado junto com o form-->
+<form action="" id="c-info">
+    <button>Clique em mim :D</button>
+</form>
+
+<fieldset form="c-info" name="inputs-contact">
+    <legend>Contato</legend>
+    <label for="">Email:</label>
+    <input type="email" name="" id="">
+</fieldset>
