@@ -13,53 +13,91 @@
     -value
     -autocomplete
         -Ele busca do seu navegador algum tipo de dado que se encaxe no input
+    
     -autofocus
         -Faz com que o cursor vai diretamente para ele.
         OBS: Apenas um por página.
+        
     -disabled
         -Faz com que desabilite.
+
+    -readonly
+        -transforma o input apenas para uma função de somente leia e não interaja.
+    
+    -form
+        -faz com que você crie um link do seu input para o form.
+
+    -name
+        -Nomeia o seu input
  -->
 
+<!-- Name 
+    Nomeia o seu input
+
+    <input type=text name=nome>
+-->
+
 <!-- Autofocus e autocomplete 
+    Autofocus
+    -Faz com que o cursor foque apenas em um input
+
+    Autocomplete
+    -Faz com que se complete automaticamente de acordo com tantas vezes você utilize os mesmo dados.
+
 <input type="email" name="" id="" autofocus autocomplete="">
 -->
 
 <!-- Value e disabled 
+    O disabled desabilita toda a caixa, idenpendente do seu valor
+
 <input type="text" value="Valor super importante" disabled>
+-->
+
+<!-- readonly 
+    Faz com que o input não tenha interações apenas leitura do valor
+
+<input type="text" value="Só me leia, okay? :D" readonly>
+-->
+
+<!-- form 
+    Cria um link entre o input e o form
+
+<form action="" id="Souumform"></form>
+<input type="text" form="Souumform">
 -->
 
 <!-- text -
     Recebe a entra de texto
 
- <input type="text" name="" id="">
+ <input type="text" name="nome">
 -->
 
 <!-- date
  recebe a entrada de uma data
 
- <input type="date" name="" id="">
+ <input type="date">
 -->
 
 <!-- number
  Recebe entrada de apenas números
 
-<input type="number" name="" id="">
+<input type="number">
  -->
 
 <!-- email 
  Recebe entrada de apenas emails com o "@"
 
- <input type="email" name="" id="">
+ <input type="email">
  -->
 
 <!-- file 
  Recebe arquivos do seu computador
 
-<input type="file" name="" id="">
+<input type="file">
 -->
 
 <!-- password 
  Recebe apenas senhas
 
- <input type="password" name="" id="">
+ <input type="password">
  -->
