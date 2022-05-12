@@ -1,0 +1,126 @@
+<!-- <input type="email"> 
+    -Espera que o usuário digite um email
+    -Irá validar se o valor digitado for um email
+    
+    #Atributos
+        -Placeholder
+        -readonly / disable
+        -value
+
+        -required
+
+        -multiple
+            -O campo irá recebe 1 ou mais emails, separado por vírgulas
+
+        -minleigth / maxleigth
+            -O mínimo e/ou máximo de caracteres no campo
+
+        -size
+            -Valor númerico indicando quantos caracteres o campo irá receber
+        
+        -pattern
+            -Uso de expressão para validar o campo
+            -Exemplo: O usuário só poderá colocar no campo do email do domínio da rocketseat.com.br
+            ".+@rocketseat\.com\.br"
+                
+            -Explicação do pattern acima
+            "qualquer caractere, 1 ou mais vezes, seguido de um @dominio, \ para dizer que o .com é literal,\ para dizer o .br é literal"
+
+        -list
+            -O id de uma tag <datalist> que está no mesmo documento
+            -<datalist> irá conter uma lista de valores pré definidos a sugerir ao usuário, quais valores estão disponíveis
+                -Os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão
+-->
+
+
+
+<!-- placeholder -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Email">
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- value -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" value="seuemail@dominio.com">
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- readonly -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" value="seuemail@dominio.com" readonly>
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- disable -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" value="seuemail@dominio.com" disabled>
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- required -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- multiple -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" multiple>
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- minleigth / maxleigth -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" minlength="8" maxlength="55">
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- size -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" size=8">
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- Pattern -->
+<!-- <form action="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" pattern=".+@rocketseat\.com\.br"
+        title="Apenas emails da rocketseat.com.br no campo serão aceitos">
+
+    <button type="submit">Enviar</button>
+
+</form> -->
+
+<!-- list -->
+<form action="">
+    <datalist id="emailslist">
+
+        <option>carlosjutscarlos@outlook.com.br</option>
+        <option>kinigami2@gmail.com</option>
+        <option>kinigami2@gmail.com</option>
+
+    </datalist>
+    <label for="email">Email:</label>
+
+    <input type="email" id="email" list="emailslist">
+
+    <button type="submit">Enviar</button>
+
+</form>
