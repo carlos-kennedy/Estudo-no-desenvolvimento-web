@@ -6,7 +6,7 @@
     -Um dos mais poderosos e complexos
     -Elevado números de combinações
 
-    Atributos
+    Atributos (comuns)
     -type
     -name
     -id
@@ -21,14 +21,44 @@
     -disabled
         -Faz com que desabilite.
 
-    -readonly
+    -readonly (quase todos)
         -transforma o input apenas para uma função de somente leia e não interaja.
     
-    -form
+    -form (quase todos)
         -faz com que você crie um link do seu input para o form.
 
     -name
-        -Nomeia o seu input
+        -Nomeia o seu input.
+
+    -required (quase todos)
+        -Faz com que seja obrigatório preencher o input com as informação do tipo.
+
+    -placeholder (quase todos)
+        -Não troca ele pelo label, utilize sempre os dois quando possível.
+        -Faz com que o campo fique com algum texto para informar o que deve ser colocado. 
+ -->
+
+<!-- Placeholder e label 
+     Utilize-os juntos para ter mais acessibilidade.
+
+<label for="email">E-mail</label>
+<input type="email" id="email" placeholder="Digite o seu email">
+-->
+
+<!-- Placeholder
+     Faz com que o campo fique com algum texto para informar o que deve ser colocado.
+
+    <input type="text" placeholder="Nome">
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Senha">
+    <input type="url" placeholder="Rede social">
+-->
+
+<!-- Required
+    Faz com que seja obrigatório preencher o input com as informações do tipo.
+    
+<input type="email" required>
+<input type="password" required>
  -->
 
 <!-- Name 
