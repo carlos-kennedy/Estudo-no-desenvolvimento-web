@@ -22,7 +22,17 @@
                 -pattern=".*\.com\.br\/.*"
 
         -list
-            -
+            -O id de uma tag <datalist> que está no mesmo documento
+            -<datalist> irá conter os seguintes valores pré definido para sugerir o usuário, quais valores estarão dísponiveis.
+            -Os valores que não estiverem dentro do <datalist> não estarão dísponiveis para sugestão
+            
+        -spellcheck
+            -Habilita a verificação ortográfica do input
+                -spellcheck="true":habilita o spellcheck de verificar a ortográfia dentro do campo do input
+
+                -spellcheck="false": desabilita o spellcheck de verificar a ortográfia.
+
+            OBS: Alguns navegadores já vem como padrão habilitado como true.
     -->
 
 <!-- placeholder -->
@@ -74,7 +84,7 @@
 </form> -->
 
 <!-- list -->
-<form action="">
+<!-- <form action="">
     <datalist id="url-list">
         <option>
             https://google.com.br
@@ -89,6 +99,13 @@
         </option>
     </datalist>
     <label for="url-campo">URL:<label>
-            <input type="url" id="url-campo" list="url-list" pattern=".*\.com\.br.*">
+            <input type="url" id="url-campo" list="url-list">
             <button type="submit">Enviar</button>
-</form>
+</form> -->
+
+<!-- spellcheck -->
+<!-- <form action="">
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" spellcheck="true">
+            <button type="submit">Enviar</button>
+</form> -->
