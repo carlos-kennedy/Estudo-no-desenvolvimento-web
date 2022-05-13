@@ -1,14 +1,63 @@
+<!-- <optgroup
+    -Utilizado para agrupar um conjunto de options.
+
+    #Atributos 
+        -disabled
+        -label
+        -selected
+        -value
+
+-->
+
+
+<!-- 
+    Com o multiple e size
 <label for="pets">Please chose one or more pets:</label>
-<select name="pets" multiple size="4">
+<select name="pets" multiple size="5"
+    title="Caso queira selecionar mais de um, pressione o 'CTRL' e clique em mais de um.">
     <optgroup label="4-legged pets">
         <option value="">Dog</option>
         <option value="">Cat</option>
-        <option value="">Horse</option>
+        <option value="">Fox</option>
+        <option value="" disabled>Horse</option>
     </optgroup>
-    <optgroup label="-Aquatic animal-
-">
+
+    <optgroup label="Aquatic animal">
         <option value="">Golden fish</option>
         <option value="">Catfish</option>
-        <option value="">Seal</option>
+        <option value="" disabled>Seal</option>
+    </optgroup>
+
+    <optgroup label="Flying pets">
+        <option value="">Falcon</option>
+        <option value="">Owl</option>
+        <option value="">Parrot</option>
+    </optgroup>
+</select> 
+-->
+
+
+<!-- 
+    Sem o multiple e o size 
+<label for="pets">Please chose one or more pets:</label>
+<select name="pets">
+    <optgroup label="4-legged pets">
+        <option value="">Dog</option>
+        <option value="">Cat</option>
+        <option value="">Fox</option>
+        <option value="" disabled>Horse</option>
+    </optgroup>
+
+    <optgroup label="Aquatic animal">
+        <option value="">Golden fish</option>
+        <option value="">Catfish</option>
+        <option value="" disabled>Seal</option>
+    </optgroup>
+
+    <optgroup label="Flying pets">
+        <option value="">Falcon</option>
+        <option value="">Owl</option>
+        <option value="">Parrot</option>
     </optgroup>
 </select>
+-->
