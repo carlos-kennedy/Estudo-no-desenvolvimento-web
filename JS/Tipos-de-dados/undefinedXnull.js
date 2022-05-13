@@ -10,6 +10,8 @@ console.log(undefined)
 
 console.log(null)
 
+// Diferente
 console.log(null !== undefined)
 
+//Igual
 console.log(null === undefined)
