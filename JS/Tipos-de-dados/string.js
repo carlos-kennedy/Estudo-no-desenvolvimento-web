@@ -12,9 +12,7 @@ console.log('Kennedy')
 
 console.log("Me responda uma coisa")
 
-console.log(`Eu estou 
-querendo saber o
-resultado de 1+1,
+console.log(`Eu estou querendo saber o resultado de 1+1,
 qual é o resultado?`)
 
 console.log(`${1 + 1}`)
