@@ -1,0 +1,37 @@
+<!--
+     <input type="search" />
+    Poderá vir assim no back-end: 'q=searchterm' 
+     -Para campos de busca
+     -É igual ao campo do tipo 'text' mas poderá ser um pouco diferente dependendo do User Agent
+
+     #Atributos
+        -list / <datalist>
+        -pattern
+        -aria-label
+    -->
+
+<!-- List / <datalist> -->
+<!-- 
+    <label for="searchtherms">Processadores:</label>
+<datalist id="searchtherms">
+    <option>Intel core 5</option>
+    <option>AMD Ryzen 7</option>
+    <option>Intel core 9</option>
+</datalist>
+<input type="search" name="q" id="searchterms" list="searchtherms"> 
+-->
+
+<!-- aria-label -->
+<!--Serve como opção para quando não há o lablel -->
+<!-- Define um valor de string que rotula o elemento atual -->
+<datalist id="searchtherms">
+    <option>Intel core 5</option>
+    <option>AMD Ryzen 7</option>
+    <option>Intel core 9</option>
+</datalist>
+
+<form action="">
+    <input type="search" name="q" id="searchterms" list="searchtherms" placeholder="Digite seu termo de busca" size="27"
+        aria-label="Campo de pesquisa: Digite seu termo de busca">
+    <button>Pesquisar</button>
+</form>
