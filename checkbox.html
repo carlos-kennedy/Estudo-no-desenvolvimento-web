@@ -1,0 +1,54 @@
+<!-- 
+    <input type="checkbox" />
+    
+    - Caixas que podem ser marcadas
+    -Selecionar um valor para ser enviado
+    -Se não selecionar, não será enviar nenhum dado ao servidor
+
+    Atributos
+    -globais
+    -value
+        -Valor que aquele campo contém
+        -Se não estiver presente, o padrão é "on"
+    -checked
+        -Para deixar o campo marcado por padrão
+ -->
+
+<!-- value 
+ <label for="subscribe">Receber mais informações?</label>
+<input type="checkbox" value="subscribed" name="subscribe" id="subscribe"> 
+-->
+
+<!-- checked
+<label for="subscribe">Receber mais informações?</label>
+<input type="checkbox" checked name="subscribe" id="subscribe"> -->
+
+<!-- MARCA MÚLTIPLUS VALORES? 
+
+    -Usaremos o atributo "name" com o mesmo nome para todos os diversos campos
+-->
+
+
+<fieldset>
+    <legend>Qual o seu hobby?</legend>
+
+    <div class="coding">
+        <label for="coding">Codar</label>
+        <input type="checkbox" name="hobby" id="coding">
+    </div>
+
+    <div class="music">
+
+        <label for="music">Música</label>
+        <input type="checkbox" name="hobby" id="music">
+    </div>
+
+    <div class="draw">
+        <label for="draw">Desenhar</label>
+        <input type="checkbox" name="hobby" id="draw">
+    </div>
+
+</fieldset>
+
+<label for="subscribe">Receber mais recomendações</label>
+<input type="checkbox" name="subscribe" id="subscribe" checked>
