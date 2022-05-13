@@ -1,0 +1,94 @@
+<!--
+    <input type="url" />
+        -Espera que o usuário digite uma URL
+        -Irá validar se o valor é uma URL
+
+    #Atributos
+        -placeholder
+        -readonly / disabled
+        -value
+
+        -required
+        
+        -minleigth / maxleigth
+            -O mínimo e/ou máximo de caracteres que o campor vai ter
+
+        -size
+            -Valor numérico indicando quantos caracteres esse campo deveria conter, modificando o tamanho da caixa.
+        
+        -pattern
+            -Uso de expressão regular para validar o campo
+            -exemplo: O usuário só poderá colocar o domínio .com .br
+                -pattern=".*\.com\.br\/.*"
+
+        -list
+            -
+    -->
+
+<!-- placeholder -->
+<!-- <form action="">
+
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" placeholder="https://example.com">
+            <button type="submit">Enviar</button>
+</form> -->
+
+<!-- required -->
+<!-- <form action="">
+
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" required>
+            <button type="submit">Enviar</button>
+</form> -->
+
+<!-- readonly / disabled -->
+<!-- <form action="">
+
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" readonly disabled value="https://example.com">
+            <button type="submit">Enviar</button>
+</form> -->
+
+<!-- minleigth / maxleigth -->
+<!-- <form action="">
+
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" minlength="10" maxlength="150">
+            <button type="submit">Enviar</button>
+</form> -->
+
+<!-- size -->
+<!-- <form action="">
+
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" size="25">
+            <button type="submit">Enviar</button>
+</form> -->
+
+<!-- pattern -->
+<!-- <form action="">
+
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" pattern=".*\.com\.br.*">
+            <button type="submit">Enviar</button>
+</form> -->
+
+<!-- list -->
+<form action="">
+    <datalist id="url-list">
+        <option>
+            https://google.com.br
+        </option>
+
+        <option>
+            https://facebook.com.br
+        </option>
+
+        <option>
+            https://twitter.com.br
+        </option>
+    </datalist>
+    <label for="url-campo">URL:<label>
+            <input type="url" id="url-campo" list="url-list" pattern=".*\.com\.br.*">
+            <button type="submit">Enviar</button>
+</form>
