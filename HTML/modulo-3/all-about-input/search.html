@@ -22,9 +22,17 @@
 -->
 
 <!-- aria-label -->
-<!--Serve como opção para quando não há o lablel -->
-<!-- Define um valor de string que rotula o elemento atual -->
-<datalist id="searchtherms">
+<!--
+    Serve como opção para quando não há o lablel
+ -->
+<!-- 
+    Define um valor de string que rotula o elemento atual 
+-->
+<!-- 
+    Ajuda o leitor de tela a chegar no campo de busca mais fácil (Screenreader) 
+-->
+<!--
+     <datalist id="searchtherms">
     <option>Intel core 5</option>
     <option>AMD Ryzen 7</option>
     <option>Intel core 9</option>
@@ -35,3 +43,14 @@
         aria-label="Campo de pesquisa: Digite seu termo de busca">
     <button>Pesquisar</button>
 </form>
+ -->
+
+<!-- pattern -->
+<!--
+     <form action="">
+    <label for="searchterms">Pesquisar pelo ID</label>
+    <input type="search" name="id" size="5" list=" searchtherms" pattern="[0-9] {2}"
+        title="O ID precisa conter dois números. ID: 99">
+    <button>Pesquisar</button>
+</form>
+ -->
