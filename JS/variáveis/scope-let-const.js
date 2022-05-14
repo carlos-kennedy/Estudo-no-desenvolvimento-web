@@ -39,13 +39,13 @@
 // const
 // Ele não aceitará nenhum outro tipo de valor a não ser o que já esteja declarado com a sua "palavra chave"
 
-const y = 0
+// const y = 0
 
 {
     // poderá receber um outro valor, porém apenas em um outro escopo diferente
     // y = 2
     // const y = 2
-    console.log('existe y? ', y)
+    // console.log('existe y? ', y)
 }
 
-console.log('> existe y depois do bloco? ', y)
+// console.log('> existe y depois do bloco? ', y)
