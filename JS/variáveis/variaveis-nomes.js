@@ -36,8 +36,8 @@
 // cameCase  (Sempre que vier um espaço a próxima letra é maiúscula)
 // snake_case  (Sempre que vier um espaço adicione um _ )
 // Escrever em inglês
-// Exemplos de variáveis ideiais
 
+// Exemplos de variáveis ideiais
 // Uma variável que vê quantos graus está hoje
 let celsius = 40
 console.log(celsius)
