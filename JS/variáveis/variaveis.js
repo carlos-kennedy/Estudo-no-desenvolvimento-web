@@ -1,5 +1,3 @@
-<script>
-
     // Variáveis
     
     // var
@@ -19,4 +17,3 @@
     // Ela não poderá ser alterada assim que for declarada com um valor.
 
     // console.log(clima)
-</script>
