@@ -12,10 +12,11 @@
 
 // O bloco criará um novo escopo. Chamamos de 'block scoped' 
 
-{
-    let x = 0
-    console.log(x)
-}
+// Exemplo
+// {
+//     let x = 0
+//     console.log(x)
+// }
 
 // Var
 // Var é global e poderá funcionar fora de um campo de bloco
@@ -38,3 +39,5 @@ console.log('> existe x antes do bloco? ', x)
 }
 
 console.log('> existe x depois do bloco? ', x)
+
+// OBS: O var é muito flexível para isso, por isso se deve utilizar mais o let e o const atualmente, para que possa evitar bugs confusos no futuro. 
