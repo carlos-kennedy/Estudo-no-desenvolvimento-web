@@ -42,7 +42,7 @@
 const y = 0
 
 {
-    // poderá receber um outro valor, porém apenas em um escopo diferente
+    // poderá receber um outro valor, porém apenas em um outro escopo diferente
     // y = 2
     // const y = 2
     console.log('existe y? ', y)
