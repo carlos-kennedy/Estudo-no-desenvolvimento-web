@@ -26,16 +26,16 @@
 
 // Exemplos que não são aceitos:
 // let 230 = "230"
-// let sou um nome vazio = "sou um nome vazio"
+// let sou um nome com espacos vazio = "sou um nome com espacos vazios"
 
-// console.log('Estes não podem ser aceitos como declaração de variável')
+// console.log('Estes não podem ser aceitos como declarações de variáveis')
 
 // Ideal:
 // Criar nomes que fazem sentido
 // Que explique o que a variável é ou faz
 // cameCase  (Sempre que vier um espaço a próxima letra é maiúscula)
 // snake_case  (Sempre que vier um espaço adicione um _ )
-// Escrever em inglês
+// Escrever em inglês (para treinar a língua e para que possa lhe ajudar a entrender mais as documentações futuras)
 
 // Exemplos de variáveis ideiais
 // Uma variável que vê quantos graus está hoje
