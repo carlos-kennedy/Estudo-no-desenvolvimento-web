@@ -26,10 +26,6 @@
 
 
 
-// console.log(`O ${student.name} de idade ${student.age} pesa ${student.weight} kg`)
-
-
-
 // 5. Declare uma variável do tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vazio
 
 
@@ -55,5 +51,4 @@
 /*
  console.log(a)
     var a = 1
-    // Undefined, pois o var é uma variável flexível e possui um tratamento único de hoisting (elevação) o valor fica em baixo enquanto a declaração fica em cima do console.log
 */
