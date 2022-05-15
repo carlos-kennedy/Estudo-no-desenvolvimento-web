@@ -53,15 +53,16 @@ let students = {
 
 // 5. Declare uma variável do tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vazio
 
-/* let students = []*/
+/*
+ let students = []
+*/
 
 // 6. Reatribua valor para a variável acima, colocando dentro dela o objeto da questão 4. (Não copiar e colar o objeto mas usar o objeto criado e inserir ele no Array)
-
-
-
+/*
 students = [
     students
 ]
+*/
 
 // 7. coloque no console o valor da posição zero do Array acima
 
