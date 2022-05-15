@@ -1,6 +1,6 @@
-//  var
-// É o único das variáveis que possui Hoisting
-// É o mais flexível dos três
+// //  var
+// // É o único das variáveis que possui Hoisting
+// // É o mais flexível dos três
 
 // var PraticedVarXNoteBefore = 30
 
@@ -17,7 +17,7 @@
 // console.log(`Somando suas notas de:`, PraticedVarXNoteBefore ,'+', PraticedVarYNote, `seu total de pontos é: ${PraticedVarXNoteBefore + PraticedVarYNote}, meus parábens!`)
 
 
-// let
+// // let
 
 // {
 //     let PraticedLetCongratulations = "Parabéns você está começando a dominar as funções de escopo das variáveis do JS:  "
@@ -30,7 +30,7 @@
 //     console.log(PraticedLetDontGetDiscouraged  + PraticedLetUGood + PraticedLetBooleanChoice)
 // }
 
-// const
+// // const
 
 // const PraticedConstX = 30
 // const PraticedConstY = 26
