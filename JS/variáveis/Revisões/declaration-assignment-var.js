@@ -24,4 +24,9 @@ isHuman = true
 // console.log('As entradas de dados são: ', name, age, isHuman)
 
 // Escrita de texto com multiplos argumentos com variáveis
-console.log ('O ' + name + ' tem ' + age + ' anos')
+
+// Concatenando os valores
+// console.log('O ' + name + ' tem ' + age + ' anos')
+
+// Interpolação de valores com template literals or template strings  
+console.log(`O ${name} tem ${age} anos`)
