@@ -3,10 +3,11 @@
 
 // 2. Diga que tipo de dado é essa variável
 
-/*
+
 let weight = 35.5
-console.log (`O tipo de dado do weigth é: ${typeof weight}`)
-*/
+
+// console.log(`O tipo de dado do weigth é: ${typeof weight}`)
+
 
 // 3. Declare uma variável e atribua valores para cada um dos dados
 // -name: String
@@ -37,6 +38,7 @@ let student = {
     age: 22,
     weight: 35.5
 }
+
 // console.log(`A ${student.name} de idade ${student.age} pesa ${student.weight} kg`)
 
 
@@ -64,17 +66,22 @@ const carlos = {
     age: 21,
     weight: 65.5
 }
+// students[1] = carlos
+
+//  (outra forma de adicionar um novo dado dentro do array)
 
 students = [
     student, carlos
 ]
 
-console.log(students[1])
+// console.log(students[1])
+
+console.log(`A estudante ${students[0].name} de idade ${students[0].age} possui um peso de: ${students[0].weight} kg`)
+
+console.log(`O estudante ${students[1].name} de idade ${students[1].age} possui um peso de: ${students[1].weight} kg`)
 
 // 9. Sem rodar o código abaixo responda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código e veja se você acertou.
 
-/*
- console.log(a)
-    var a = 1
+//  console.log(a)
+//     var a = 1
     // Undefined, pois o var é uma variável flexível e possui um tratamento único de hoisting (elevação) o valor fica em baixo enquanto a declaração fica em cima do console.log
-*/
