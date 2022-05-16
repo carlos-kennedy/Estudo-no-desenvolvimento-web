@@ -1,30 +1,23 @@
-// Pra que serve functions?
-// Agrupamento de códigos
-// Reutilização de código quantas vezes quiser
-// Entregar um significado na declaração do bloco no código
+// Argumento e parâmetro (A.P)
 
+// Pode ser utilizado dentro de variáveis
 // Exemplo:
-// Gostaria de criar uma aplicação de frases motivacionais
 
-// console.log('Nunca fale para uma pessoa o que está fazendo ou o que vai fazer da sua vida futuramente, a inveja vem de onde a gente menos espera')
 
-// console.log('Pratique e estude o suficiente para que não precise depender de alguém.')
+const sum = function (number1, number2) { // parâmetros (parameters) 
+    console.log(number1 + number2)
+    // Isto é uma função anonima
+    // function expression
+    // function anonymous
+}
+// O console.log no escopo só funcionará dentro do escopo onde foi atribuido os valores da declaração onde estiver o function
 
-// console.log('Foque mais em você atualmente e futuramente, saúde mental é algo sagrado, e devemos respeitar isso.')
+sum(29, 32) //arguments or argumentos
+// console.log(number1 + number2)
 
-// Anatomia function
-
-// Declaration - declaração da função or function statement
-function createPhrases() {
-    console.log('Nunca fale para uma pessoa o que está fazendo ou o que vai fazer da sua vida futuramente, a inveja vem de onde a gente menos espera')
-
-    console.log('Pratique e estude o suficiente para que não precise depender de alguém.')
-
-    console.log('Foque mais em você atualmente e futuramente, saúde mental é algo sagrado, e devemos respeitar isso.')
+// Definindo um parâmetro de fora da variável
+function multiplication(number1, number2) {
+    console.log(number1 * number2)
 }
 
-// Executar a função (rodar, chamar, invocar ...) or execute function (run, call, invoke)
-
-createPhrases()
-
-console.log('Fim do meu programa')
+multiplication(3, 39) // arguments 
