@@ -26,4 +26,4 @@ function createPhrases() {
 
 createPhrases()
 
-console.log('Fim do programa')
+console.log('Fim do meu programa')
