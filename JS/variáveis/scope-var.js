@@ -28,7 +28,7 @@
 
 // var x 
 
-// console.log('> existe x antes do bloco? ', x)
+console.log('> existe x antes do bloco? ', x)
 
 // {
 // x = 0
@@ -38,6 +38,6 @@
     var x = 0 // scopo local, e onde esta o valor da var
 }
 
-// console.log('> existe x depois do bloco? ', x)
+console.log('> existe x depois do bloco? ', x)
 
 // OBS: O var é muito flexível para isso, por isso se deve utilizar mais o let e o const atualmente, para que possa evitar bugs confusos no futuro. 
