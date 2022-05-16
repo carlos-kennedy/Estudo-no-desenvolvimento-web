@@ -49,6 +49,33 @@ transferStudents = [
 
 ]
 
+console.log(`______________Sobre os alunos que foram transferidos______________`)
+
+console.log(`Os estudantes que foram transferidos são: ${transferStudents[0].name}, ${transferStudents[1].name} e ${transferStudents[2].name} tendo interesses em diferentes áreas de estudo`)
+
+console.log('___________________________________________________________')
+
+console.log(`Sendo ${transferStudents[0].name} se formando em ${transferStudents[0].course} e já trabalhando com ${transferStudents[0].course}`)
+
+console.log('___________________________________________________________')
+console.log(`Sendo ${transferStudents[1].name} se formando em ${transferStudents[1].course} e já trabalhando com ${transferStudents[1].course}`)
+
+console.log('___________________________________________________________')
+console.log(`Sendo ${transferStudents[2].name} se formando em ${transferStudents[2].course}`)
+
+console.log('___________________________________________________________')
+
+
+
+
+
+
+
+
+
+
+
+
 
 console.log('______________Sobre os alunos novos_______________')
 
