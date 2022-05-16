@@ -1,6 +1,7 @@
 // Pra que serve functions?
 // Agrupamento de códigos
-// Reutilização do código quantas vezes quiser
+// Reutilização de código quantas vezes quiser
+// Entregar um significado na declaração do bloco no código
 
 // Exemplo:
 // Gostaria de criar uma aplicação de frases motivacionais
