@@ -16,19 +16,25 @@
 // console.log(`O ${carlos.name} ${carlos.sleep()}`)
 
 
-function Person(name) {
+function Students(name) {
+
     this.name = name
-    this.kennedyAge = () => {
-        return 21
+
+    this.failed = () => {
+        return 'Reprovado, tente de novo..'
     }
-    this.marcosAge = () => {
-        return 34
+    this.approved = () => {
+        return 'Aprovado, meus parábens!'
     }
 
 }
 
-const kennedy = new Person('Kennedy')
-const marcos = new Person('Marcos')
+const kennedy = new Students('Kennedy')
+const marcos = new Students('Marcos')
+const agatha = new Students('Agatha')
+const tonpe = new Students('Tonpe')
 
-console.log(kennedy.name, kennedy.kennedyAge())
-console.log(marcos.name, marcos.marcosAge())
+console.log(`O aluno ${kennedy.name} foi: ${kennedy.approved()}`)
+console.log(`O aluno ${tonpe.name} foi: ${tonpe.failed()}`)
+console.log(`O aluno ${marcos.name} foi: ${marcos.approved()}`)
+console.log(`A aluna ${agatha.name} foi: ${agatha.approved()}`)
