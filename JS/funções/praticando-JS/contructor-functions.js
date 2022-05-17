@@ -21,7 +21,8 @@ function Students(name) {
     this.name = name
 
     this.failed = () => {
-        return 'Reprovado, tente de novo..'
+        // return this.name + ' Reprovado, tente de novo..'
+        return  'Reprovado, tente de novo..'
     }
     this.approved = () => {
         return 'Aprovado, meus parábens!'
