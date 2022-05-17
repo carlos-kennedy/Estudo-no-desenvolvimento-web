@@ -1,3 +1,4 @@
+// praticando com variáveis dentro e fora do escopo
 // Atribuindo function na variável
 // const sum = function (number1, number2, number3, number4) {
 //     total = number1 + number2 + number3 + number4
@@ -20,20 +21,51 @@
 
 // E se eu definir uma variável fora do escopo da function com o mesmo nome da palavra chave?
 
-let total = 0
+// let total = 0
 
-const MultiplyAndDivide = function (numDivide, numMultiply, numMultiplyandDivide) {
-    // console.log(numDivide / numMultiply * numMultiplyandDivide)
-    let total = numDivide / numMultiply * numMultiplyandDivide
-    return total
+// const MultiplyAndDivide = function (numDivide, numMultiply, numMultiplyandDivide) {
+//     // console.log(numDivide / numMultiply * numMultiplyandDivide)
+//     let total = numDivide / numMultiply * numMultiplyandDivide
+//     return total
+// }
+
+// const numDivide = 20
+// const numMultiply = 30
+// const numMultiplyandDivide = numDivide * numMultiply / numDivide * numMultiply
+
+// console.log(`Os números armazenados são: ${numDivide}, ${numMultiply} e ${numMultiplyandDivide}`)
+
+// console.log(`O resultado destes números são: ${MultiplyAndDivide(numDivide, numMultiply, numMultiplyandDivide)}`)
+// console.log(total)
+
+
+
+
+const reminderNotifications = function (reminderN, name) {
+    // console.log(`O horário do ${name} de levantar da cama é ${reminderN[0].gettingOutOfBedHour}`)
+    namesAndTimes = reminderN , name
+    return namesAndTimes
 }
 
-const numDivide = 20
-const numMultiply = 30
-const numMultiplyandDivide = numDivide * numMultiply / numDivide * numMultiply
+let name = 'Kennedy'
+let reminderN = []
 
-console.log(`Os números armazenados são: ${numDivide}, ${numMultiply} e ${numMultiplyandDivide}`)
+let alarmMorning = {
+    gettingOutOfBedHour: '6:00',
+    goToWorkHour: '8:00'
 
-console.log(`O resultado destes números são: ${MultiplyAndDivide(numDivide, numMultiply, numMultiplyandDivide)}`)
+}
 
-console.log(total)
+let alarmNight = {
+    goHomeHour: '18:00',
+    makeDinnerHour: '20:00',
+    goToBedHour: '22:00'
+
+}
+
+reminderN = [
+    alarmMorning, alarmNight
+
+]
+
+console.log(`O ${reminderNotifications(name)} acorda as: ${reminderNotifications(reminderN[0].gettingOutOfBedHour)}`)
