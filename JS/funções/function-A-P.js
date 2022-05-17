@@ -1,8 +1,7 @@
-// Argumento e parâmetro (A.P)
-
+// Função 
+// Argumento e parâmetro
 // Pode ser utilizado dentro de variáveis
 // Exemplo:
-
 
 const sum = function (number1, number2) { // parâmetros (parameters) 
     // console.log(number1 + number2)
@@ -10,7 +9,7 @@ const sum = function (number1, number2) { // parâmetros (parameters)
     // function expression
     // function anonymous
 }
-// O console.log no escopo só funcionará dentro do escopo onde foi atribuido os valores da declaração onde estiver o function
+// O console.log no escopo só funcionará dentro do escopo onde foi atribuido os valores da declaração de onde estiver os parâmetros do function.
 
 sum(29, 32) //arguments or argumentos
 // console.log(number1 + number2)
@@ -60,6 +59,6 @@ console.log(`O total é: ${MultiplyAndDivide(num1, num2, num3, num4)}`)
 // Por isso o total da multiplicação e divisão deu "Undefined"
 // Para isso se adiciona o "Return" a expressão iniciada
 
-// Não se pode usar o VAR dentro do escopo da function pode acarretar em bugs serissimos por conta da flexíbilidade dele
+// Não se pode usar o VAR dentro do escopo da function pode acarretar em bugs serissimos por conta da flexíbilidade dele de levar o mesmo valor a outras partes do código que poderia acarretar em diversos "undefined"
 
-// Pode ser utilizado um LET bem de vez em quando dentro da function
+// Pode ser utilizado um LET com o mesmo nome da palavra chave que estiver dentro do escopo da function, porém dentro do escopo a palavra chave teria que receber um LET ou Const também para que os valores não se tornem diferentes.
