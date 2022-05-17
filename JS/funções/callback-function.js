@@ -6,7 +6,7 @@
 function sayMyName(name) {
     console.log('Antes de executar a função de callback')
 
-    // Esta é a função que foi trazida de volta
+    // Esta é a função que foi trazida de volta para a memória
     name()
 
     console.log('Depois de executar a função de callback')
