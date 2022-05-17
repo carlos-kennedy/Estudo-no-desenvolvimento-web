@@ -62,9 +62,9 @@ console.log(`Os novos alunos são ${allStudents[0].carlos.name} ${allStudents[0]
 
 console.log(`O hobby do ${allStudents[0].carlos.name} é ${allStudents[0].carlos.hobby}`)
 
-console.log(`O hobby do ${allStudents[0].charllote.name} é ${allStudents[0].charllote.hobby}`)
+console.log(`O hobby de ${allStudents[0].charllote.name} é ${allStudents[0].charllote.hobby}`)
 
-console.log(`O hobby do ${allStudents[0].karol.name} é ${allStudents[0].karol.hobby}`)
+console.log(`O hobby de ${allStudents[0].karol.name} é ${allStudents[0].karol.hobby}`)
 
 console.log(`O hobby do ${allStudents[1].daniel.name} é ${allStudents[1].daniel.hobby}`)
 
