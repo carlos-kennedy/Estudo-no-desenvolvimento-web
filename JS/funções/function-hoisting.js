@@ -13,20 +13,20 @@ function sayMyName() {
 
 // sayMyName();
 
-// const sayMyName = function () 
+// const sayMyName = function ()
 // {console.log('É Kennedy')}
 
-// O erro inesperado é por conta que const ou let não sofre hoisting.
+// O erro inesperado é por conta que const ou let não sofrerá hoisting.
 
 // Exemplo com o VAR
 
-sayMyName();
+// sayMyName();
 
-var sayMyName = function () {
-    // console.log('Kennedy')
-}
+// var sayMyName = function () {
+    // console.log('Kennedy')}
 
 // O erro foi por conta que o var trocou a função para uma "variável undefined"
 
 // Se fizer uma função de uma maneira de expressão ela não vai sofrer uma elevação
+
 
