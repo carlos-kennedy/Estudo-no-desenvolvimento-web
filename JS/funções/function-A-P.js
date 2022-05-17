@@ -61,4 +61,4 @@ console.log(`O total é: ${MultiplyAndDivide(num1, num2, num3, num4)}`)
 
 // Não se pode usar o VAR dentro do escopo da function pode acarretar em bugs serissimos por conta da flexíbilidade dele de levar o mesmo valor a outras partes do código que poderia acarretar em diversos "undefined"
 
-// Pode ser utilizado um LET com o mesmo nome da palavra chave que estiver dentro do escopo da function, porém dentro do escopo a palavra chave teria que receber um LET ou Const também para que os valores não se tornem diferentes.
+// Pode ser utilizado um LET com o mesmo nome da palavra chave que estiver dentro do escopo da function, pois o que estiver dentro da function é outro escopo com a palavra chave usada
