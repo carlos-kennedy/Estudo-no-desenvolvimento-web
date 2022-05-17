@@ -1,4 +1,5 @@
-// praticando com variáveis dentro e fora do escopo
+// Praticando com variáveis dentro e fora do escopo junto com Arrays e functions
+
 // Atribuindo function na variável
 // const sum = function (number1, number2, number3, number4) {
 //     total = number1 + number2 + number3 + number4
@@ -39,11 +40,10 @@
 // console.log(total)
 
 
-
-
+// Praticando functions com arrays / objects e variáveis
 const reminderNotifications = function (reminderN, name) {
     // console.log(`O horário do ${name} de levantar da cama é ${reminderN[0].gettingOutOfBedHour}`)
-    namesAndTimes = reminderN , name
+    namesAndTimes = reminderN, name
     return namesAndTimes
 }
 
@@ -52,7 +52,8 @@ let reminderN = []
 
 let alarmMorning = {
     gettingOutOfBedHour: '6:00',
-    goToWorkHour: '8:00'
+    timeToCoffe: '6:30',
+    goToWorkHour: '8:00',
 
 }
 
@@ -69,3 +70,11 @@ reminderN = [
 ]
 
 console.log(`O ${reminderNotifications(name)} acorda as: ${reminderNotifications(reminderN[0].gettingOutOfBedHour)}`)
+
+console.log(`O ${reminderNotifications(name)} toma o seu cafézinho as: ${reminderNotifications(reminderN[0].timeToCoffe)}`)
+
+console.log(`O ${reminderNotifications(name)} volta para casa as: ${reminderNotifications(reminderN[1].goHomeHour)}`)
+
+console.log(`O ${reminderNotifications(name)} faz o seu jantar as: ${reminderNotifications(reminderN[1].makeDinnerHour)}`)
+
+console.log(`O ${reminderNotifications(name)} faz o seu jantar as: ${reminderNotifications(reminderN[1].makeDinnerHour)}`)
