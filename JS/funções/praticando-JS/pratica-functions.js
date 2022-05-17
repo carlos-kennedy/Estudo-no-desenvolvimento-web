@@ -1,4 +1,4 @@
-// Praticando com variáveis dentro e fora do escopo junto com Arrays e functions
+// Praticando com variáveis dentro e fora do escopo junto com Arrays e functions ;D
 
 // Atribuindo function na variável
 // const sum = function (number1, number2, number3, number4) {
