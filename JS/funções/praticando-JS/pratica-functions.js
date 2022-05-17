@@ -77,4 +77,4 @@ console.log(`O ${reminderNotifications(name)} volta para casa as: ${reminderNoti
 
 console.log(`O ${reminderNotifications(name)} faz o seu jantar as: ${reminderNotifications(reminderN[1].makeDinnerHour)}`)
 
-console.log(`O ${reminderNotifications(name)} faz o seu jantar as: ${reminderNotifications(reminderN[1].makeDinnerHour)}`)
+console.log(`O ${reminderNotifications(name)} vai se deitar as: ${reminderNotifications(reminderN[1].goToBedHour)}`)
