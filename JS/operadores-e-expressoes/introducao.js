@@ -31,4 +31,4 @@ console.log(number + 1) //Binary por ter dois valores para que o operador esteja
 
 console.log(++number) //Unary por ter apenas um valor e receber algum tipo de operador como incremento tipo o "typeof" que é um operador unary
 
-console.log(false ? 'Lindo' : 'Lindo demais') //Ternary possui valores com boolean com opções de condiçãos true or false. No exemplo acima você utiliza duas opções de se e senão nos : , se o for true dará a primeira opção se for false entrará na segunda opção
+console.log(false ? 'Lindo' : 'Lindo demais') //Ternary possui três expressões com valores boolean com opções de condiçãos true or false. No exemplo acima você utiliza duas opções de Se e Senão nos : , se for true dará a primeira opção se for false entrará na segunda opção assim resultando em alguma coisa
