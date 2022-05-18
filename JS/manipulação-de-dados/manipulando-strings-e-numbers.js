@@ -18,7 +18,16 @@
 
 // Transformando um número quebrado com 2 casa decimais e trocar pontos por vírgula
 
-let number = 231.120
+// let number = 231.120
 // O que estiver atrelado a o number podem ser chamado de metodos também.
 // O replace funciona assim, "replace(1 opção, 2 opção)" ele trocará a primeira opção pela segunda
-console.log(number.toFixed(2).replace(".", ","))
+// console.log(number.toFixed(2).replace(".", ","))
+
+// Transformando letras minúsculas e maiúsculas. faça o contrário disso também.
+
+// let word = 'Olá, como estou formatado?'
+// console.log(word.toUpperCase())
+// console.log(word.toLowerCase())
+
+let phraseWithLove = 'Tenho muito amor por estar aprendendo algo no qual me identifico!'
+console.log(phraseWithLove.includes('amor'))
