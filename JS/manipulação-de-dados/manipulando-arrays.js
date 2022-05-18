@@ -37,6 +37,7 @@ console.log(techsStack.unshift('ReactJS'))
 
 // Remover do fim
 // O metodo pop faz com que remova um elemento no final do Array
+
 // OBS: Cada vez que você coloque um pop diversas vezes ele irá continuar removendo os elementos 
 techsStack.pop()
 
@@ -54,6 +55,7 @@ techsStack.shift()
 
 // Remover 1 ou mais elementos de qualquer posição do Array
 // O metodo splice faz com que ele remova um elemento do array.
+
 // OBS: Ele aceita dois argumentos splice(1argumento, 2argumento) o 1 argumento diz onde ele começará e o 2 argumento dirá quantos ele retirará.
 techsStack.splice(1, 2)
 // Encontrar a posição de um elemento no Array
