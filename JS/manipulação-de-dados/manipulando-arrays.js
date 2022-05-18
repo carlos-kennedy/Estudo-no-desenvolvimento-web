@@ -49,12 +49,14 @@ techsStack.shift()
 // Pegar somente alguns elementos do Array
 // O metodo slice ele corta o elemento.
 
-// OBS: ele aceita dois argumentos e modos de usar, slice(1argumento, 2argumento) o 1 argumento é a posição de inicio que ele irá retirar para mim e o 2 argumento é até ele onde irá. 
-console.log(techsStack.slice(1, 3))
+// OBS: ele aceita dois argumentos e modos de usar, slice(1argumento, 2argumento) o 1 argumento é a posição de inicio que ele irá retirar para mim e o 2 argumento é até ele onde irá.
+// console.log(techsStack.slice(1, 3))
 
 // Remover 1 ou mais elementos de qualquer posição do Array
-
+// O metodo splice faz com que ele remova um elemento do array.
+// OBS: Ele aceita dois argumentos splice(1argumento, 2argumento) o 1 argumento diz onde ele começará e o 2 argumento dirá quantos ele retirará.
+techsStack.splice(1, 2)
 // Encontrar a posição de um elemento no Array
 
 
-// console.log(techsStack)
+console.log(techsStack)
