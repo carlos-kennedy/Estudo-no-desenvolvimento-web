@@ -41,7 +41,7 @@ let two = 2
 // console.log(two >= one)
 // console.log(one >= -1)
 // console.log(two >= 3)
-// dsad
+
 
 // <= menor ou igual a
 // console.log(one <= two)
