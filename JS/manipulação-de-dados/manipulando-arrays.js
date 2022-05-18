@@ -8,15 +8,19 @@
 // console.log(anyArray)
 
 // Contar elementos de um Array
-// Cada elemento no array pode seu um tipo de dado diferente ({type: 'array'}) até mesmo uma função caso queira
+// Cada elemento no array pode ser um tipo de dado diferente ({type: 'array'}) até mesmo uma função caso queira
+
 console.log(['Kennedy',
     'Continue',
     function () {
-        return 'Estou dentro de uma funão'
+        return 'Estou dentro de uma função'
+    },
+    function () {
+        return 'Você saiu da função'
     }]
-[2]())
+[3]())
 
-console.log(['a', 3, 4].length)
+console.log(['a', 3, 4, 5, 120, 20].length)
 
 // Transformar uma cadeia de caracteres em elementos de um array
 
