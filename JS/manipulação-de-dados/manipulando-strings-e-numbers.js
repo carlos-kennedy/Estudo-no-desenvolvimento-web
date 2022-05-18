@@ -11,7 +11,7 @@ console.log(String(number) + 20)
 
 // Contar quantos caracteres tem em uma palavra e quantos dígitos tem um número
 
-let name = 'Kennedy'
-console.log(name.length)
+let word = 'Kennedy'
+console.log(word.length)
 let anyNumber = 2983132
 console.log(String(anyNumber).length)
