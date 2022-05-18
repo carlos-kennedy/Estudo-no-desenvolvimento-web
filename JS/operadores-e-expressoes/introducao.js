@@ -11,11 +11,11 @@
 // Toda expression no js pode ou não terminar com ;
 let number = 20
 
-// Um dos poucos casos que você poderá o ;
+// Um dos poucos casos que você poderá usar o ;
 // Exemplo
 let otherNumber = 2;
 
-// Em uma expressão auto executável sem o ;
+// Em uma expressão auto executável com o ;
 (function () {
     console.log('Oie')
 })()
