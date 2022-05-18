@@ -29,5 +29,6 @@
 // console.log(word.toUpperCase())
 // console.log(word.toLowerCase())
 
-let phraseWithLove = 'Tenho muito amor por estar aprendendo algo no qual me identifico!'
+// Verificando se na frase abaixo exite a palvra "Amor"
+let phraseWithLove = 'Tenho muito por estar aprendendo algo no qual me identifico!'
 console.log(phraseWithLove.includes('amor'))
