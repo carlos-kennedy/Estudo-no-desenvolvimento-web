@@ -26,7 +26,7 @@
     - Listas de fontes e ordem de prioridade
     - Inclui "fallback" font
 
-    OBS: "FALLBACK é algo usado quando sua opção original não está disponível por alguma razão""
+    OBS: "FALLBACK é algo usado quando sua opção original não está disponível por alguma razão e poderá usar uma segunda opção"
  */
 
 .font-family {
