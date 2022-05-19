@@ -10,7 +10,7 @@
 // AND                                                                  &&
 // OR                                                                       | |
 // Condicional                                                         ?:
-// Assignment (Atribuição)                                = += -= *=
+// Assignment (Atribuição)                              = += -= *= %=
 
 console.log(2 + 2 * 10 + 30 * 3)
 // console.log(3 > 2 > 1)
@@ -22,4 +22,4 @@ console.log(3 > 2 > 1)
 // O false é transformado em 0
 
 // Outro exemplo
-console.log(2>1 && 3<5)
+console.log(2 > 1 && 3 < 5)
