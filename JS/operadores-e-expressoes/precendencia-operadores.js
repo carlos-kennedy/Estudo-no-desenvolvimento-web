@@ -20,3 +20,6 @@ console.log(3 > 2 > 1)
 //console.log(true==1) true
 // O true é transformado em 1
 // O false é transformado em 0
+
+// Outro exemplo
+console.log(2>1 && 3<5)
