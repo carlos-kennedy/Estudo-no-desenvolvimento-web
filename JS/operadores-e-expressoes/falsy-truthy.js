@@ -1,4 +1,6 @@
 // Type conversion (typecasting) vs type Coersion
+// Type conversion (typecasting) é quando o próprio JS faz uma conversão
+
 // Exemplo:
 // console.log(Number('9') + 50)
 
