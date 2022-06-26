@@ -14,8 +14,11 @@ y = 2
 // Sem o operador de atribuição 
 // x = x + 2
 // y = y + 2
-// x += 2
-// y += 
+x += 2
+y += 3
+
+console.log(x, y);
+
 
 // Subtraction assignment
 // Faz com que subtraia pelo valor dado
@@ -58,7 +61,6 @@ y = 2
 // Sem o operador de atribuição
 // x = x ** 3
 // y = y ** 5
-x **= 2
-y **= 5
+// x **= 2
+// y **= 5
 
-console.log(x, y);
