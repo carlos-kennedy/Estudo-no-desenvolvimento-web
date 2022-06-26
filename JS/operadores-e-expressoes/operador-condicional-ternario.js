@@ -15,7 +15,7 @@ let cafe = true
 
 // const niceBreakfeast = pao && manteiga && cafe ? 'Café da manhã top :)' : 'Falto alguma coisa, e eu não sei o que é :('
 
-const niceBreakfeastOrBad = pao || manteiga || cafe ? 'Café da manhã top :)' : 'Falto alguma coisa, e eu não sei o que é :('
+const niceBreakfeastOrBad = pao || manteiga || cafe ? 'Café da manhã top :)' : 'Faltou alguma coisa, e eu não sei o que é :('
 // Qualquer coisa pode entrar na condicional ternário. functions arrays objects ...
 
 console.log(niceBreakfeastOrBad)
