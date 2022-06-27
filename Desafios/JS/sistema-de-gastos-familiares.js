@@ -29,4 +29,43 @@ function calculateBalance() {
   console.log(`Seu saldo é ${balanceText}: ${total.toFixed(2)}R$`);
 }
 
-calculateBalance();
+// calculateBalance();
+
+let spending = {
+  incomes: [2000.87, 390.1, 1090.89, 10.34],
+  expenses: [450, 164.9, 30.13, 20.94],
+};
+
+function sum(newArray) {
+  let total = 0;
+  for (let value of newArray) {
+    total += value;
+  }
+
+  return total;
+}
+
+function calculateMyFamilyBalance() {
+  const incomesBalance = sum(spending.incomes);
+  const spendingBalance = sum(spending.expenses);
+
+  const total = incomesBalance - spendingBalance;
+
+  const weBalanceThisMouth = total > 0;
+
+  let weBalanceText = "negativos";
+
+  if (weBalanceThisMouth) {
+    weBalanceText = "positivos!";
+  } else {
+    weBalanceText;
+  }
+
+  console.log(
+    `Nós estamos ${weBalanceText} neste mês, o valor total dos nossos gastos foram: ${total.toFixed(
+      2
+    )}R$`
+  );
+}
+
+calculateMyFamilyBalance();
