@@ -67,13 +67,13 @@ console.log(techsStack.unshift("ReactJS"));
 
 // Encontrar a posição de um elemento no Array
 // O metodo indexOf mostra onde e qual elemento está localizado.
-// let index = techsStack.indexOf('js')
+let index = techsStack.indexOf("js");
 
-// console.log(index)
+console.log(index);
 
 // Bonus
 
-let index = techsStack.indexOf("ReactJS");
+// let index = techsStack.indexOf("ReactJS");
 techsStack.splice(index, 1);
 
 // console.log(index)
