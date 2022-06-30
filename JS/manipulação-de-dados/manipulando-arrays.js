@@ -4,8 +4,8 @@
 // Sem constructor
 // let anyArray = [0, 1, 2, 3]
 
-// let anyArray = new Array('Kennedy', 'Lindo', 'Bobão')
-// console.log(anyArray)
+let anyArray = new Array('Kennedy', 'Lindo', 'Bobão')
+console.log(anyArray)
 
 // Contar elementos de um Array
 // Cada elemento no array pode ser um tipo de dado diferente ({type: 'array'}) até mesmo uma função caso queira

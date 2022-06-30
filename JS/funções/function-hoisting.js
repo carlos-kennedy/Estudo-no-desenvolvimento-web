@@ -1,10 +1,10 @@
 // Function hoisting
-// Sim, assim existe uma Hoisting da function
+// Sim, existe Hoisting na function
 
-sayMyName();
+console.log(sayMyName("Kennedy", 21, "student"));
 
-function sayMyName() {
-    console.log('Seu nome é Kennedy')
+function sayMyName(name, age, work) {
+  return `${name} ${age} ${work}`;
 }
 
 // Somente uma função do tipo statement como exemplo acima, sofrerá uma elevação
@@ -23,10 +23,8 @@ function sayMyName() {
 // sayMyName();
 
 // var sayMyName = function () {
-    // console.log('Kennedy')}
+// console.log('Kennedy')}
 
 // O erro foi por conta que o var trocou a função para uma "variável undefined"
 
 // Se fizer uma função de uma maneira de expressão ela não vai sofrer uma elevação
-
-

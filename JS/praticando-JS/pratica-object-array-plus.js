@@ -66,17 +66,6 @@ console.log(`Sendo ${transferStudents[2].name} se formando em ${transferStudents
 console.log('___________________________________________________________')
 
 
-
-
-
-
-
-
-
-
-
-
-
 console.log('______________Sobre os alunos novos_______________')
 
 console.log(`Os estudantes novos são: ${students[0].name}, ${students[1].name} e ${students[2].name} tendo interesse de estudo nas áreas de tecnologia`)
