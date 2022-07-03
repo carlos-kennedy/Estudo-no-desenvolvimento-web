@@ -29,7 +29,7 @@ function calculateBalance() {
   console.log(`Seu saldo é ${balanceText}: ${total.toFixed(2)}R$`);
 }
 
-// calculateBalance();
+calculateBalance();
 
 let spending = {
   incomes: [2000.87, 390.1, 1090.89, 10.34],
