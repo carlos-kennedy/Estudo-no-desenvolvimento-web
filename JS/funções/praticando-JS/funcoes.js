@@ -16,33 +16,33 @@ function trainingFunction(name, age, nationality) {
 const person = new trainingFunction("Carlos Kennedy", 21, "Brasileiro");
 const otherPerson = new trainingFunction("Isaac", 28, "Britânico");
 
-console.log(
-  `O ${person.name}, de 
-  ${person.age} 
-  anos ${person.understandFunction()}`
-);
+// console.log(
+//   `O ${person.name}, de
+//   ${person.age}
+//   anos ${person.understandFunction()}`
+// );
 
-console.log(
-  `O ${otherPerson.name}, de ${
-    otherPerson.age
-  } anos ${otherPerson.didNotUnderstand()}`
-);
+// console.log(
+//   `O ${otherPerson.name}, de ${
+//     otherPerson.age
+//   } anos ${otherPerson.didNotUnderstand()}`
+// );
 
 //Arrow function & callback function
+
 const makeMyVitamin = (vitamin) => {
-  console.log("Estou fazendo uma vitamina de banana");
+  // console.log("Estou fazendo uma vitamina de banana");
   vitamin();
 };
 
 makeMyVitamin(() => {
-  console.log("Faz uma pra mim também, por favor?");
+  // console.log("Faz uma pra mim também, por favor?");
 });
 
 // sistema escolar de notas
-
 let score, scoreA, scoreB, scoreC, scoreD, scoreF;
 
-scoreResults();
+// scoreResults(90);
 
 function scoreResults(score) {
   scoreA = score >= 90 && score <= 100;
@@ -69,15 +69,51 @@ function scoreResults(score) {
 }
 
 // function callback
-const carlos = "Carlos é muito bonito!!";
-function carlosIsBeautifull(carlos) {
+const carlos = "Carlos é muito feio";
+function carlosIsPretty(carlos) {
   carlos();
 }
 
-carlosIsBeautifull(() => {
-  if (carlos === "Carlos é muito bonito!!") {
+carlosIsPretty(() => {
+  if (carlos === "Carlos é muito bonito") {
     console.log("Nossa que homão gostoso");
+  } else if (carlos === "Carlos é muito feio") {
+    console.log("hum...terei que discordar humano.");
   } else {
     console.log("É..até que tá mais arrumadinho vai");
   }
 });
+
+// Sistema para calcular os gastos familiares
+const spending = {
+  incomes: [2410.32, 546.13, 299.97, 699.32],
+  expenses: [478.12, 100.32, 908.1, 800.32],
+};
+
+const sum = (spendings) => {
+  let total = 0;
+  for (let value of spendings) {
+    total += value;
+  }
+
+  return total;
+};
+
+const calcSpendings = () => {
+  const calcIncomes = sum(spending.incomes);
+  const calcExpenses = sum(spending.expenses);
+  const total = calcIncomes - calcExpenses;
+
+  const familySpending = total >= 0;
+
+  let TextSpendings = "negativos";
+
+  if (familySpending) {
+    TextSpendings = "positivos";
+  }
+
+  console.log(`Nós estamos ${TextSpendings.toUpperCase()} este mês.
+  Ficamos com ${total}R$ no total`);
+};
+
+calcSpendings();
