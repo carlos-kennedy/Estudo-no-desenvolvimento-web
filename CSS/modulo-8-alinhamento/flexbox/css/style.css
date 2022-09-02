@@ -1,0 +1,253 @@
+/* FLEX-SIZING */
+/* .wrapper {
+  display: flex;
+  height: 80vh;
+  background: black;
+  color: white;
+}
+
+.item {
+  flex: 1;
+  border: 1px solid white;
+  background: gray;
+} */
+
+/* FLEX-DIRECTION */
+/* .wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 80vh;
+} */
+
+/* FLEX-WRAP */
+/* 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  border: 1px solid black;
+}
+
+.item {
+  border: 1px solid green;
+  width: 500px;
+} */
+
+/* FLEX-FLOW */
+/* .wrapper {
+  display: flex;
+  border: 1px dashed red;
+
+    flex-flow: column wrap;
+
+  height: 200px;
+}
+
+.item {
+  border: 1px solid black;
+
+  width: 90px;
+  height: 65px;
+} */
+
+/* JUSTIFY-CONTENT */
+/* .wrapper {
+  display: flex;
+
+  justify-content: space-around;
+
+  flex-flow: column;
+  border: 1px dashed red;
+
+  height: 50vh;
+}
+
+.item {
+  border: 1px solid black;
+} */
+
+/* ALIGN-ITEMS */
+/* .wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  border: 1px dashed red;
+
+  height: 50vh;
+}
+
+.item {
+  border: 1px solid black;
+}
+ */
+
+/*GAP */
+/* .wrapper {
+  display: flex;
+
+  border: 1px dashed red;
+
+  height: 50vh;
+  gap: 12%;
+}
+
+.item {
+  border: 1px solid black;
+} */
+
+/* FLEX-BASIS */
+/*
+.wrapper {
+  display: flex;
+
+  flex-flow: column; 
+  flex-flow: row;
+  border: 1px solid red;
+}
+
+
+
+.item {
+  border: 1px dashed gray;
+  flex-basis: auto;
+}
+
+.item:nth-child(2) {
+    flex-basis: 10rem;
+}
+*/
+/*
+ Quando se muda o eixo, o flex-basis troca de width para height assim não aceitando um dos dois e crescendo para baixo
+  */
+
+/* FLEX-GROW */
+/* .wrapper {
+  display: flex;
+
+  border: 1px solid red;
+  height: 50vh;
+}
+
+.item {
+  border: 1px dashed black;
+}
+
+.item:nth-child(4),
+.item:nth-child(3) {
+  flex-grow: 1;
+}
+
+.item:nth-child(1) {
+  flex-grow: 2;
+} */
+
+/*
+ Faz com que o item cresça de acordo com as frações dadas e ocupando o espaço inteiro da caixa ou não.
+  */
+
+/* FLEX-SHRINK */
+/* .wrapper {
+  display: flex;
+  flex-flow: column;
+
+  border: 1px solid red;
+
+  width: 350px;
+  height: 50vh;
+}
+
+.item {
+  flex-basis: 100%;
+  border: 1px solid gray;
+}
+
+.item:nth-child(2),
+.item:nth-child(3) {
+  flex-shrink: 2;
+} */
+
+/*
+ O flex-shrink já é setado como 1 por padrão 
+ */
+
+/* FLEX */
+/* .wrapper {
+  display: flex;
+
+  border: 1px solid red;
+}
+
+.item {
+  border: 1px dashed gray;
+
+  flex: 1 1 40px;
+} 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  border: 1px solid gray;
+  min-height: 100vh;
+
+  display: flex;
+}
+
+aside {
+  background-color: greenyellow;
+  flex: 1;
+}
+
+main {
+  background-color: palegoldenrod;
+  flex: 2;
+
+  display: flex;
+  flex-flow: column;
+}
+
+main section:nth-child(1) {
+  background-color: yellowgreen;
+  flex: 2;
+}
+
+main section:nth-child(2) {
+  background-color: aquamarine;
+  flex: 0 100px;
+}
+
+main section:nth-child(3) {
+  background-color: cadetblue;
+  flex: 1;
+}
+
+*/
+
+/* ORDER */
+/* .wrapper {
+  display: flex;
+}
+
+.item {
+  border: 1px solid gray;
+}
+
+.item:nth-child(1) {
+  order: 0;
+}
+
+.item:nth-child(2) {
+  order: 1;
+}
+
+.item:nth-child(3) {
+  order: 4;
+}
+
+.item:nth-child(4) {
+  order: 2;
+} */
