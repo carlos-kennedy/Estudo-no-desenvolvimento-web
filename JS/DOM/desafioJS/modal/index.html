@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./script.js"></script>
+    <title>Modal</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            border: none;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        button.btn {
+            color: #fff;
+            background: #b23;
+            border-radius: .4rem;
+            padding: .9rem 1.6rem;
+            cursor: pointer;
+            position: relative;
+        }
+
+        div {
+            display: none;
+        }
+
+        div.modal {
+            padding: 2rem;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            z-index: 40;
+            display: flex;
+            justify-content: center;
+            background: #b34;
+            color: #0009;
+        }
+
+        div.keyesc {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-flow: column;
+        }
+
+        div.modal img {
+            width: 50%;
+            height: 12rem;
+            clip-path: circle();
+        }
+    </style>
+
+
+    <button class="btn">
+        Open Window
+    </button>
+
+    <div class="">
+        <div class="keyesc">
+            <h2>Tecla ESC para fechar</h2>
+            <img src="https://images.unsplash.com/photo-1662441898903-3fa6aa6838d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+                alt="cachorro">
+            <h3> AU AU !</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>
